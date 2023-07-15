@@ -281,7 +281,7 @@ label {
 .senha {
   color: var(--preto-massa);
   text-align: right;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 input[type="checkbox"] {
