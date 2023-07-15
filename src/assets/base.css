@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@400;600&family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --preto-massa: #1a1a1a;
+  --preto-elegante: #242424;
+  --azulzin: #646cff;
+  --escuro-massa: #213547;
+  --branco-estiloso: #f9f9f9;
+  --azul-paia: #747bff;
+  --verde-foda: #00ff82;
+  --fonte-padrao: 'Oswald', 'Inter', 'Outfit', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: var(--fonte-padrao);
+}
+
+
