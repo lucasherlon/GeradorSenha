@@ -117,9 +117,9 @@ function copiarSenha() {
     <h3>Quantos Caracteres?</h3>
     <p class="escolha">*escolha entre 4 e 30 caracteres</p>
     <div class="display">
-      <button @click="plusNumero"  class="mudanca">+</button>
-      <div class="numero"><p>{{ numero }}</p></div>
       <button @click="minusNumero" class="mudanca">-</button>
+      <div class="numero"><p>{{ numero }}</p></div>
+      <button @click="plusNumero"  class="mudanca">+</button>
     </div>
     <div class="input">
       <input type="checkbox" name="numeros" v-model="numeros" @change="gerarForca">
