@@ -199,6 +199,10 @@ h3 {
   transition: transform 0.5s ease;
 }
 
+mudanca:active {
+  color: var(--branco-estiloso);
+}
+
 p {
   color: var(--branco-estiloso);
 }
@@ -245,6 +249,10 @@ label {
   cursor: pointer;
   transform: scale(1.05);
   transition: transform 0.5s ease;
+}
+
+.gerar:active {
+  color: var(--branco-estiloso);
 }
 .resultado {
   width: 350px;
