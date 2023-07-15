@@ -17,7 +17,6 @@ const letrasMai = letrasMin.map((el) => {
 })
 const caracteresEsp = ['!', '@', '#', '$', '%', '&','-', '_', '+', '=', '|', '/', '?', ';', ':' ];
 
-
 function gerarForca() {
   forca.value = numero.value;
   if(numeros.value) {
@@ -41,7 +40,6 @@ function gerarForca() {
     color.value = '#00ff82';
   }
 }
-
 
 function plusNumero() {
     if (numero.value < 30) {
@@ -303,5 +301,13 @@ input[type="checkbox"]:hover {
 .autor {
   margin-top: 10px;
   margin-left: 10px;
+}
+
+@media  (max-width: 400px) {
+  .card {
+  min-height: 500px;
+  width: 300px;
+  padding: 15px;
+  }
 }
 </style>
